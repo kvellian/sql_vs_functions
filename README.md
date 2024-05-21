@@ -57,35 +57,35 @@ Although the difference between tests 1C and 1D is small, this difference could 
 
 **Find the average longitude and latitude value for each user ID: 5 Iterations vs. 20 Iterations**
 
-2A: SQL query to retrieve information
+**2A: SQL query to retrieve information**
 
     SELECT user_id, AVG(longitude) AS avg_longitude, AVG(latitude) AS avg_latitude
     FROM Tweet INNER JOIN Geo ON Tweet.geo_id = Geo.geo_id
     GROUP BY user_id;
 
-2B: Execute the SQL query from 2A on the Web Database (550,000 Tweets)
+**2B: Execute the SQL query from 2A on the Web Database (550,000 Tweets)**
 
 | Metric                                      | 5 iterations | 20 iterations |
 |---------------------------------------------|--------------|---------------|
 | Total runtime (seconds)                     | 7.0552       | 5.4047        |
 | Average runtime per iteration (seconds)     | 1.4110       | 0.2702        |
 
-2C: Create a function that retrieves the information by reading it from the TXT file (550,000 Tweets)
+**2C: Create a function that retrieves the information by reading it from the TXT file (550,000 Tweets)**
 
     Function name: execute_python_iterations_2C(path_name, iteration_counts)
 
-2D: Execute the function from 2C 
+**2D: Execute the function from 2C**
 
 | Metric                                      | 5 iterations | 20 iterations |
 |---------------------------------------------|--------------|---------------|
 | Total runtime (seconds)                     | 66.3988      | 467.6484      |
 | Average runtime per iteration (seconds)     | 13.2798      | 23.3824       |
 
-2E: Create a function that retrieves the information using regular expressions by reading it from the TXT file (550,000 Tweets)
+**2E: Create a function that retrieves the information using regular expressions by reading it from the TXT file (550,000 Tweets)**
 
     Function name: execute_regex_iterations_2E(path_name, iteration_counts)
 
-2F: Execute the function from 2E
+**2F: Execute the function from 2E**
 
 | Metric                                      | 5 iterations | 20 iterations |
 |---------------------------------------------|--------------|---------------|
