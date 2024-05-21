@@ -41,10 +41,14 @@ Populating databases with 110,000 tweets and 550,000 tweets and comparing runtim
 ## How do the Runtimes Compare in Part 1?
 
 This plot below displays runtime comparisons across various database population techniques. It uses log scale to visualize the data better. 
+
 Based on the observations, inserting data from the web (1B) has a higher runtime compared to inserting data from a TXT file (1C). 
-Writing data from the web to a TXT file (1A) has the second highest runtime.
+
+Writing data from the web to a TXT file (1A) has the second-highest runtime.
+
 In these particular tests, inserting data from a TXT file through batches (1D) has the fastest runtime. This could be due to the nature of how memory loads onto a computer. 
-Although the difference between tests 1C and 1D are small, this difference could make an impact on a much larger amount of data.
+
+Although the difference between tests 1C and 1D is small, this difference could make an impact on a much larger amount of data.
 
 <img src="assets/img/1E_plot_runtime_populate.png" alt="plot_runtime_populate">
 
