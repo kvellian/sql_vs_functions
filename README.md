@@ -60,7 +60,7 @@ Although the difference between tests 1C and 1D is small, this difference could 
 
 ## Part 2: Compare Runtime of Information Retrieval using SQL vs. Functions
 
-**Find the average longitude and latitude value for each user ID: 5 Iterations vs. 20 Iterations**
+**Information: Find the average longitude and latitude value for each user ID: 5 Iterations vs. 20 Iterations**
 
 **2A: SQL query to retrieve information**
 
