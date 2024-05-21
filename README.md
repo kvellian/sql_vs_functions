@@ -13,13 +13,30 @@ This project aims to create databases and retrieve information in various method
 
 Creating databases with 110,000 tweets and 550,000 tweets and comparing runtime to create.
 
-**1A: Write Data from Web to TXT file**
+**1A: Write Data from Web to TXT File**
 - This TXT file will be used for parts 1C, and 1D.
 
 | Metric                                       | 110,000 Tweets | 550,000 Tweets |
 |----------------------------------------------|----------------|----------------|
 | Runtime (seconds) saving tweets in txt file | 14.56          | 69.67          |
 
+**1B: Insert Data from Web**
+
+| Metric           | 110,000 Tweets | 550,000 Tweets |
+|------------------|----------------|----------------|
+| Runtime (seconds) | 35.03          | 232.08         |
+
+**1C: Insert Data from TXT File (part 1A)**
+
+| Metric           | 110,000 Tweets | 550,000 Tweets |
+|------------------|----------------|----------------|
+| Runtime (seconds) | 4.77           | 24.49          |
+
+**1D: Insert Batches of Data from TXT File (part 1A)**
+
+| Metric           | 110,000 Tweets | 550,000 Tweets |
+|------------------|----------------|----------------|
+| Runtime (seconds) | 3.46           | 18.91          |
 
 
 ## Initial Analysis
