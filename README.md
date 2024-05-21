@@ -1,6 +1,6 @@
 ## Code
 
-[sql_vs_functions.py](assets/img/sql_vs_functions.py)
+[sql_vs_functions.py](assets/path/sql_vs_functions.py)
 
 ## Dataset
 
