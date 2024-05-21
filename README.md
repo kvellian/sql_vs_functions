@@ -5,7 +5,7 @@ This dataset, OneDayOfTweets.txt, was sourced from the link below. It contains a
 
 ## Python Code
 
-- [View SQL vs. Functions Report](assets/path/sql_vs_functions.py)
+- [View SQL vs. Functions Report](https://github.com/kvellian/sql_vs_functions/blob/main/assets/path/sql_vs_functions.py) 
 
 ## Purpose
 
