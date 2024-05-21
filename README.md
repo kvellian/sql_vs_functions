@@ -6,12 +6,12 @@ This dataset, OneDayOfTweets.txt, was sourced from the link below. It contains a
 
 ## Purpose
 
-This project aims to create databases and retrieve information in various methods using this Twitter data and compare their performances. 
+This project aims to populate databases and retrieve information in various methods using this Twitter data and compare their performances. 
 
 
 ## Part 1: Creating Databases using SQL
 
-Creating databases with 110,000 tweets and 550,000 tweets and comparing runtime to create.
+Populating databases with 110,000 tweets and 550,000 tweets and comparing runtime to create.
 
 **1A: Write Data from Web to TXT File using Functions**
 - This TXT file will be used for parts 1C, and 1D.
@@ -39,12 +39,17 @@ Creating databases with 110,000 tweets and 550,000 tweets and comparing runtime 
 | Runtime (seconds) | 3.46           | 18.91          |
 
 
+** How do the runtimes compare?**
+
+This plot below displays runtime comparisons across various database population techniques. It uses log scale to visualize the data better. Based on the observations, inserting data from the web (1B) has a higher runtime compared to inserting data from a TXT file (1C). Writing data from the web to a TXT file (1A) has the second highest runtime. In these particular tests, inserting data from a TXT file through batches (1D) has the fastest runtime. This could be due to the nature of how memory loads onto a computer. Although the difference between tests 1C and 1D are small, this difference could make an impact on a much larger amount of data.
+
+
 <img src="assets/img/1E_plot_runtime_populate.png" alt="plot_runtime_populate">
 
 
 ## Part 2: Compare Runtime of Information Retrieval using SQL vs. Functions
 
-Find the average longitude and latitude value for each user ID: 5 Iterations vs. 20 Iterations
+**Find the average longitude and latitude value for each user ID: 5 Iterations vs. 20 Iterations**
 
 - Compare runtime performance of SQL vs. Functions
 
