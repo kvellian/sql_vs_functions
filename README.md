@@ -3,9 +3,9 @@
 This dataset, OneDayOfTweets.txt, was sourced from the link below. It contains a total of 4.4M tweets in text format. 
 - [Tweets Data Source: OneDayOfTweets.txt](https://dbgroup.cdm.depaul.edu/DSC450/OneDayOfTweets.txt)
 
-## Code
+## Python Code
 
-- [sql_vs_functions.py](assets/path/sql_vs_functions.py)
+- [View SQL vs. Functions Report](assets/path/sql_vs_functions.py)
 
 ## Purpose
 
