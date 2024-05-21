@@ -95,6 +95,9 @@ Although the difference between tests 1C and 1D is small, this difference could 
 ## How do the Runtimes Compare in Part 2?
 
 This plot below displays runtime comparisons across find the average longitude and latitude value for each user ID for 5 and 20 iterations. It uses log scale to visualize the data better. 
-Based on the tests, it is clear that using SQL to query from a database (2B) to answer the question trends to a lower runtime as the iterations increase. We can observe how reading directly from a TXT file (2D) has the highest runtime, followed by reading from a TXT file through regular expressions (2F).
+
+Based on the tests, it is clear that using SQL to query from a database (2B) to answer the question trends to a lower runtime as the iterations increase. 
+
+We can observe how reading directly from a TXT file (2D) has the highest runtime, followed by reading from a TXT file through regular expressions (2F).
 
 <img src="assets/img/2G_plot_runtime_distributions.png" alt="plot_runtime_distributions.png">
