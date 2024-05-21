@@ -11,8 +11,8 @@ This dataset, OneDayOfTweets.txt, was sourced from DePaul University using the l
 
 This project aims to populate databases and retrieve information in various methods using this Twitter data and compare their performances. 
 
-1. Populating databases with 110,000 tweets and 550,000 tweets and comparing runtime.
-2. Retrieving information using SQL vs. Functions: 5 Iterations vs. 20 Iterations and comparing runtime.
+Part 1. Populating databases with 110,000 tweets and 550,000 tweets and comparing runtime.
+Part 2. Retrieving information using SQL vs. Functions: 5 Iterations vs. 20 Iterations and comparing runtime.
 
 ## Part 1: Creating Databases using SQL
 
