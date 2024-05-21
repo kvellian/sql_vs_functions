@@ -8,12 +8,11 @@ This dataset, OneDayOfTweets.txt, was sourced from the link below. It contains a
 
 This project aims to populate databases and retrieve information in various methods using this Twitter data and compare their performances. 
 
+Populating databases with 110,000 tweets and 550,000 tweets and comparing runtime.
 
 ## Part 1: Creating Databases using SQL
 
-Populating databases with 110,000 tweets and 550,000 tweets and comparing runtime to create.
-
-**1A: Write Data from Web to TXT File using Functions**
+**1A: Write Data from Web to TXT File using Python Functions**
 - This TXT file will be used for parts 1C, and 1D.
 
 | Metric                                       | 110,000 Tweets | 550,000 Tweets |
