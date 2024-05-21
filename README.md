@@ -1,3 +1,7 @@
+## Code
+
+[sql_vs_functions.py](assets/img/sql_vs_functions.py)
+
 ## Dataset
 
 This dataset, OneDayOfTweets.txt, was sourced from the link below. It contains a total of 4.4M tweets in text format. 
