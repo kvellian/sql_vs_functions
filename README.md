@@ -63,7 +63,7 @@ Find the average longitude and latitude value for each user ID: 5 Iterations vs.
 
 2C: Create a function that retrieves the information by reading it from the TXT file (550,000 Tweets)
 
-Function name: execute_python_iterations_2C(path_name, iteration_counts)
+    Function name: execute_python_iterations_2C(path_name, iteration_counts)
 
 2D: Execute the function from 2C 
 
@@ -74,7 +74,7 @@ Function name: execute_python_iterations_2C(path_name, iteration_counts)
 
 2E: Create a function that retrieves the information using regular expressions by reading it from the TXT file (550,000 Tweets)
 
-Function name: execute_regex_iterations_2E(path_name, iteration_counts)
+    Function name: execute_regex_iterations_2E(path_name, iteration_counts)
 
 2F: Execute the function from 2E
 
